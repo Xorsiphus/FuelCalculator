@@ -22,10 +22,10 @@ public class FuelWeightCalculatorService : IFuelWeightCalculatorService
     /// <param name="origins">Точка отправления</param>
     /// <param name="destination">Точка прибытия</param>
     /// <param name="fuelType">Тип топлива</param>
-    /// <param name="fuelСonsumption">Расход топлива на 100км</param>
+    /// <param name="fuelConsumption">Расход топлива на 100км</param>
     /// <returns></returns>
     public async Task<double> GetFuelWeightAsync(string origins, string destination, string fuelType,
-        double fuelСonsumption)
+        double fuelConsumption)
     {
         var distance = await _distanceService.GetDistanceAsync(origins, destination);
         if (distance == null) return -1;
@@ -35,6 +35,6 @@ public class FuelWeightCalculatorService : IFuelWeightCalculatorService
             return -1;
         }
 
-        return Math.Round(distance.Value * ((int) currentFuel / 100000000.0) * fuelСonsumption, 2);
+        return Math.Round(distance.Value * ((int) currentFuel / 100000000.0) * fuelConsumption, 2);
     }
 }
