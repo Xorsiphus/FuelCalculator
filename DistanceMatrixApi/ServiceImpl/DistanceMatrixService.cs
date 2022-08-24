@@ -7,9 +7,9 @@ namespace DistanceMatrixApi.ServiceImpl;
 
 public class DistanceMatrixService : IDistanceMatrixService
 {
-    private readonly string _apiKey;
+    private readonly string? _apiKey;
 
-    public DistanceMatrixService(string apiKey)
+    public DistanceMatrixService(string? apiKey)
     {
         _apiKey = apiKey;
     }

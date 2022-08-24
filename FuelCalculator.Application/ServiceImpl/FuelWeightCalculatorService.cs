@@ -1,7 +1,7 @@
 ﻿using DistanceMatrixApi;
 using DistanceMatrixApi.ServiceImpl;
 using FuelCalculator.Application.Enums;
-using FuelCalculator.Enums.Configuration;
+using FuelCalculator.Application.Enums.Configuration;
 using Microsoft.Extensions.Options;
 using static System.Enum;
 

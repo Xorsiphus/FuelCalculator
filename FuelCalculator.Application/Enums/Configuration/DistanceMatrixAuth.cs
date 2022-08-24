@@ -1,6 +1,6 @@
-﻿namespace FuelCalculator.Enums.Configuration;
+﻿namespace FuelCalculator.Application.Enums.Configuration;
 
 public class DistanceMatrixAuth
 {
-    public string ApiKey { get; set; }
+    public string? ApiKey { get; set; }
 }

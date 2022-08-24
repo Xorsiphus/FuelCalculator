@@ -1,6 +1,6 @@
 using FuelCalculator.Application;
+using FuelCalculator.Application.Enums.Configuration;
 using FuelCalculator.Application.ServiceImpl;
-using FuelCalculator.Enums.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

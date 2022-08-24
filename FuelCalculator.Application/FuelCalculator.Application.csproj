@@ -7,13 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DistanceMatrixApi\DistanceMatrixApi.csproj" />
+        <ProjectReference Include="..\DistanceMatrixApi\DistanceMatrixApi.csproj"/>
+        <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0"/>
     </ItemGroup>
-
-    <ItemGroup>
-      <Reference Include="Microsoft.Extensions.Options">
-        <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.8\Microsoft.Extensions.Options.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
 </Project>
