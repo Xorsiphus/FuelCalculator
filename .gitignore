@@ -1,3 +1,11 @@
 .idea
+
 /DistanceMatrixApi/bin
 /DistanceMatrixApi/obj
+
+/FuelCalculator/bin
+/FuelCalculator/obj
+
+/FuelCalculator.Application/bin
+/FuelCalculator.Application/obj
+
